@@ -3,6 +3,10 @@
  You can change the article headings, fonts, colors, etc.
 */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .swiper {
   width: 1200px;
   height: 600px;
