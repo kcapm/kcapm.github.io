@@ -1,0 +1,18 @@
+/* 
+ This CSS file is used to override the existing styles of the theme.
+ You can change the article headings, fonts, colors, etc.
+*/
+
+.swiper {
+  width: 1200px;
+  height: 600px;
+}
+
+.swiper-slide h1 {
+	background-image: none, url("/img/giphy.gif");
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	background-repeat: no-repeat, repeat;
+}
